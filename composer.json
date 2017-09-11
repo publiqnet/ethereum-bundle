@@ -10,7 +10,8 @@
     "keywords" : [
         "blockchainrndhub","ethereum","bundle"
     ],
-    "require" : {
+    "require": {
+        "blockchainrndhub/etherscan": "^1.0"
     },
     "minimum-stability": "dev",
     "autoload" : {
