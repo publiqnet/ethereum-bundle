@@ -1,8 +1,8 @@
 services:
-    app_apiconnector:
+    ethereum_apiconnector:
         class: EtherScan\Resources\ApiConnector
         arguments: ['%etherscan_api_key%']
 
-    app_etherscan:
+    ethereum_etherscan:
         class: EtherScan\EtherScan
-        arguments: ['@app_apiconnector']
+        arguments: ['@ethereum_apiconnector']
