@@ -1,7 +1,8 @@
 services:
-    # Error Manager
-#    peary.exception_listener:
-#        class: Vted\PearyBundle\Listener\ExceptionListener
-#        arguments: ['@service_container']
-#        tags:
-#            - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
+    app_apiconnector:
+        class: EtherScan\Resources\ApiConnector
+        arguments: ['%etherscan_api_key%']
+
+    app_etherscan:
+        class: EtherScan\EtherScan
+        arguments: ['@app_apiconnector']
