@@ -16,6 +16,6 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-4": { "Blockchainrndhub\\EthereumBundle": "" }
+        "psr-0": { "Blockchainrndhub\\EthereumBundle": "" }
     }
 }
