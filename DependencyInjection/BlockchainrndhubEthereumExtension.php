@@ -1,6 +1,6 @@
 <?php
 
-namespace blockchainrndhub\ethereumBundle\DependencyInjection;
+namespace Blockchainrndhub\EthereumBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -8,11 +8,11 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
 /**
- * This is the class that loads and manages your bundle configuration.
+ * This is the class that loads and manages your bundle configuration
  *
- * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
+ * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class blockchainrndhubethereumExtension extends Extension
+class BlockchainrndhubEthereumExtension extends Extension
 {
     /**
      * {@inheritdoc}
@@ -22,7 +22,7 @@ class blockchainrndhubethereumExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
+        $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
     }
 }
