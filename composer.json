@@ -1,0 +1,21 @@
+{
+    "name": "blockchainrndhub/ethereum-bundle",
+    "type": "symfony-bundle",
+    "description": "Blockchainrndhub EthereumBundle",
+    "keywords": ["blockchainrndhub", "ethereum", "blockchain"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Blockchain R&D Hub",
+            "email": "info@blockchainrndhub.com"
+        }
+    ],
+    "require": {
+        "blockchainrndhub/etherscan": "^1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": { "Blockchainrndhub\\Bundle\\EthereumBundle\\": "" }
+    }
+}

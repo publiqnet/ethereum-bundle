@@ -1,0 +1,4 @@
+services:
+#    blockchainrndhubethereum.example:
+#        class: blockchainrndhub\ethereum-bundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
