@@ -1,4 +1,7 @@
 services:
-#    blockchainrndhubethereum.example:
-#        class: blockchainrndhub\ethereum-bundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    # Error Manager
+#    peary.exception_listener:
+#        class: Vted\PearyBundle\Listener\ExceptionListener
+#        arguments: ['@service_container']
+#        tags:
+#            - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
