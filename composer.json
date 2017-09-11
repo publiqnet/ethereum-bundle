@@ -1,22 +1,22 @@
 {
-    "name" : "blockchainrndhub/ethereum",
-    "description" : "A demo bundle",
-    "type" : "symfony-bundle",
-    "license":      "MIT",
-    "authors" : [{
-        "name": "Blockchain R&D Hub",
-        "email": "info@blockchainrndhub.com"
-    }],
-    "keywords" : [
-        "blockchainrndhub","ethereum","bundle"
-    ],
-    "require": {
-        "blockchainrndhub/etherscan": "^1.0"
-    },
-    "minimum-stability": "dev",
-    "autoload" : {
-        "psr-4" : {
-            "Blockchainrndhub\\EthereumBundle\\" : ""
-        }
+  "name" : "blockchainrndhub/ethereum-bundle",
+  "description" : "A demo bundle",
+  "type" : "symfony-bundle",
+  "license":      "MIT",
+  "authors" : [{
+    "name": "Blockchain R&D Hub",
+    "email": "info@blockchainrndhub.com"
+  }],
+  "keywords" : [
+    "blockchainrndhub","ethereum","bundle"
+  ],
+  "require": {
+    "blockchainrndhub/etherscan": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Blockchainrndhub\\EthereumBundle\\" : ""
     }
+  }
 }
