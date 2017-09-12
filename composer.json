@@ -1,6 +1,6 @@
 {
   "name" : "blockchainrndhub/ethereum-bundle",
-  "description" : "A demo bundle",
+  "description" : "Ethereum bundle provide us to use ethereum services.",
   "type" : "symfony-bundle",
   "license":      "MIT",
   "authors" : [{
@@ -11,6 +11,7 @@
     "blockchainrndhub","ethereum","bundle"
   ],
   "require": {
+    "php": "^7.0",
     "blockchainrndhub/etherscan": "^1.0"
   },
   "minimum-stability": "dev",
